@@ -12,3 +12,7 @@ This Romi robot was configured and programmed to complete a course outlined by a
 Romi Components
 Five ITR20001/T infrared sensors
 Bump sensor 
+
+
+## Control
+PI control loop using encoder data as feedback.
