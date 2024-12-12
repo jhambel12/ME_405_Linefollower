@@ -32,31 +32,31 @@ This project involves a Romi robot configured and programmed to autonomously com
 - **Nucleo Pinout diagrams**
     See the Morpho Headers section on the [ST Nucleo-L475RG webpage](https://os.mbed.com/platforms/ST-Nucleo-L476RG/).
 - **Pin assignment table**    
-| Pin Name Nucleo  | Pin Mode            | Connection                   | Pin Name on device |
-| :--------------: | :-----------------: | :--------------------------: | :----------------: |
-| PB_5             | Output, Push/Pull   | Left Motor On/off control    | N/A                |
-| PB_3             | Output, Push/Pull   | Left Motor Dir control       | N/A                |
-| PA_8             | Timer 1             | Left Motor effort            | N/A                |
-| PA_10            | Output, Push/Pull   | Right Motor On/off control   | N/A                | 
-| PB_10            | Output, Push/Pull   | Right Motor Dir control      | N/A                |
-| PB_6             | Timer 4             | Right Motor effort           | N/A                |
-| XX_X             | XXXXXXX             | Right Encoder                | N/A                |
-| XX_X             | XXXXXXX             | Right Encoder                | N/A                |
-| XX_X             | XXXXXXX             | Left Encoder                 | N/A                |
-| XX_X             | XXXXXXX             | Left Encoder                 | N/A                |
-| PC_1             | Analog input        | Line sensor                  | IR1                |
-| PB_1             | Analog input        | Line sensor                  | IR2                |
-| PC_3             | Analog input        | Line sensor                  | IR3                |
-| PC_0             | Analog input        | Line sensor                  | IR4                |
-| PB_0             | Analog input        | Line sensor                  | IR5                |
-| XX_X             | Analog input        | Bump sensor                  | N/A                |
-| PA_4             | Output, Push/Pull   | Reset Pin for IMU            | RST                |
-| PB_8             | I2C1 SCL            | I2C1 clock for I2C bus       | SCL                |
-| PB_9             | I2C1 SDA            | I2C1 serial data for I2C bus | SDA                |
-| XX_X             | Analog input        | Bump sensor                  | XXX                |
-| PA_4             | Output, Push/Pull   | Reset Pin for IMU            | XXX                |
-| PB_8             | I2C1 SCL            | I2C1 clock for I2C bus       | XXX                |
-| PB_9             | I2C1 SDA            | I2C1 serial data for I2C bus | XXX                |
+| Pin Name Nucleo | Pin Mode | Connection | Pin Name on device |
+| --- | --- | --- | --- |
+| PB_5 | Output, Push/Pull | Left Motor On/off control | N/A |
+| PB_3 | Output, Push/Pull | Left Motor Dir control | N/A |
+| PA_8 | Timer 1 | Left Motor effort | N/A |
+| PA_10 | Output, Push/Pull | Right Motor On/off control | N/A | 
+| PB_10 | Output, Push/Pull | Right Motor Dir control | N/A |
+| PB_6 | Timer 4 | Right Motor effort | N/A |
+| XX_X | XXXXXXX | Right Encoder | N/A |
+| XX_X | XXXXXXX | Right Encoder | N/A |
+| XX_X | XXXXXXX | Left Encoder | N/A |
+| XX_X | XXXXXXX | Left Encoder | N/A |
+| PC_1 | Analog input | Line sensor | IR1 |
+| PB_1 | Analog input | Line sensor | IR2 |
+| PC_3 | Analog input | Line sensor | IR3 |
+| PC_0 | Analog input | Line sensor | IR4 |
+| PB_0 | Analog input | Line sensor | IR5 |
+| XX_X | Analog input | Bump sensor | N/A |
+| PA_4 | Output, Push/Pull | Reset Pin for IMU | RST |
+| PB_8 | I2C1 SCL | I2C1 clock for I2C bus | SCL |
+| PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | SDA |
+| XX_X | Analog input | Bump sensor | XXX |
+| PA_4 | Output, Push/Pull | Reset Pin for IMU | XXX |
+| PB_8 | I2C1 SCL | I2C1 clock for I2C bus | XXX |
+| PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | XXX |
 
 
 | Command | Description |
