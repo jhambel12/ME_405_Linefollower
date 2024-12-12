@@ -67,19 +67,19 @@ The control system implements a **PI control loop**, using encoder data and line
 
 ### Python Files:
 - **`main.py`**: Main program orchestrating the robot’s behavior.  
-[View Main File](./code/main.py)  
+[View main File](./code/main.py)  
 - **`motor.py`**: Controls motor operations.  
-[View Main File](./code/motor.py)  
+[View Motor File](./code/motor.py)  
 - **`encoder.py`**: Handles data from the encoders.  
-[View Main File](./code/encoder.py)  
+[View IMU File](./code/encoder.py)  
 - **`BNO055.py`**: Interface for the BNO055 sensor (if used).  
-[View Main File](./code/BNO055.py)  
+[View Line Sensor File](./code/BNO055.py)  
 - **`irsensor.py`**: Reads data from the infrared sensors.  
-[View Main File](./code/irsensor.py)  
+[View Bump Sensor File](./code/irsensor.py)  
 - **`bumpsensor.py`**: Reads data from the bump sensor.
-[View Main File](./code/bumpsensor.py)  
+[View cotask File](./code/bumpsensor.py)  
 - **`cotask.py`**: Manages cooperative multitasking.  
-[View Main File](./code/cotask.py)  
+[View task_share File](./code/cotask.py)  
 - **`task_share.py`**: Facilitates shared data between tasks.  
 [View Main File](./code/task_share.py)  
 
