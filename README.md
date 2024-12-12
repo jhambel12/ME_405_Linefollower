@@ -60,10 +60,6 @@ This project involves a Romi robot configured and programmed to autonomously com
 | PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | XXX |
 
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 
 
