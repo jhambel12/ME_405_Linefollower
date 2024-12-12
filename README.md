@@ -66,13 +66,22 @@ The control system implements a **PI control loop**, using encoder data and line
 
 
 ### Python Files:
-- **`main.py`**: Main program orchestrating the robot’s behavior.
-- **`motor.py`**: Controls motor operations.
-- **`encoder.py`**: Handles data from the encoders.
-- **`BNO055.py`**: Interface for the BNO055 sensor (if used).
-- **`irsensor.py`**: Reads data from the infrared sensors.
-- **`cotask.py`**: Manages cooperative multitasking.
-- **`task_share.py`**: Facilitates shared data between tasks.
+- **`main.py`**: Main program orchestrating the robot’s behavior.  
+[View Main File](./code/main.py)  
+- **`motor.py`**: Controls motor operations.  
+[View Main File](./code/motor.py)  
+- **`encoder.py`**: Handles data from the encoders.  
+[View Main File](./code/encoder.py)  
+- **`BNO055.py`**: Interface for the BNO055 sensor (if used).  
+[View Main File](./code/BNO055.py)  
+- **`irsensor.py`**: Reads data from the infrared sensors.  
+[View Main File](./code/irsensor.py)  
+- **`bumpsensor.py`**: Reads data from the bump sensor.
+[View Main File](./code/bumpsensor.py)  
+- **`cotask.py`**: Manages cooperative multitasking.  
+[View Main File](./code/cotask.py)  
+- **`task_share.py`**: Facilitates shared data between tasks.  
+[View Main File](./code/task_share.py)  
 
 ### Code Functionality:
 Main holds the task structure and is the file that runs when the robot is in motion. This file has X tasks, one for each of the states in the finite state machine. Within these tasks, classes are referenced to handle particular functions of the sensors, motor controller, and the IMU that the code interacts with. This keeps the length reasonable and improves the readibility of the code.
