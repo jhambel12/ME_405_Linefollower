@@ -102,7 +102,7 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 
 ## Photos
 Romi Front View:
-<img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />
+- <img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />
 Romi Top View:
 <img src="./images/Romi_top.jpg" alt="Robot Top View" width="400" />
 Romi Side View:
