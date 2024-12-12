@@ -53,10 +53,16 @@ This project involves a Romi robot configured and programmed to autonomously com
 | PA_4             | Output, Push/Pull   | Reset Pin for IMU            | RST                |
 | PB_8             | I2C1 SCL            | I2C1 clock for I2C bus       | SCL                |
 | PB_9             | I2C1 SDA            | I2C1 serial data for I2C bus | SDA                |
-| XX_X             | Analog input        | Bump sensor                  |                    |
-| PA_4             | Output, Push/Pull   | Reset Pin for IMU            |                    |
-| PB_8             | I2C1 SCL            | I2C1 clock for I2C bus       |                    |
-| PB_9             | I2C1 SDA            | I2C1 serial data for I2C bus |                    |
+| XX_X             | Analog input        | Bump sensor                  | XXX                |
+| PA_4             | Output, Push/Pull   | Reset Pin for IMU            | XXX                |
+| PB_8             | I2C1 SCL            | I2C1 clock for I2C bus       | XXX                |
+| PB_9             | I2C1 SDA            | I2C1 serial data for I2C bus | XXX                |
+
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 
 
