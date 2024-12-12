@@ -18,6 +18,7 @@ This project involves a Romi robot configured and programmed using micropython t
 
 ### Hardware:
 - **Romi Chassis and Components**
+- **BNO055 IMU sensor**: Detects acceleration, angular rate, and magnetic fields. Note - handle with care as it is sensitive to impact.
 - **Infrared Line Sensors**: Five ITR20001/T infrared sensors for line detection.
 - **Bump Sensor**: Detects obstacles to avoid collisions.
 
@@ -36,26 +37,25 @@ This project involves a Romi robot configured and programmed using micropython t
 
 | Pin Name Nucleo | Pin Mode | Connection | Pin Name on device |
 | --- | --- | --- | --- |
-| PB_5 | Output, Push/Pull | Left Motor On/off control | N/A |
-| PB_3 | Output, Push/Pull | Left Motor Dir control | N/A |
-| PA_8 | Timer 1 | Left Motor effort | N/A |
-| PA_10 | Output, Push/Pull | Right Motor On/off control | N/A | 
-| PB_10 | Output, Push/Pull | Right Motor Dir control | N/A |
-| PB_6 | Timer 4 | Right Motor effort | N/A |
-| XX_X | XXXXXXX | Right Encoder | N/A |
-| XX_X | XXXXXXX | Right Encoder | N/A |
-| XX_X | XXXXXXX | Left Encoder | N/A |
-| XX_X | XXXXXXX | Left Encoder | N/A |
+| PB_5 | Output, Push/Pull | Left Motor Enable | <img src="./images/Not_sleep.jpg" alt="Not Sleep text" width="40" /> |
+| PB_3 | Output, Push/Pull | Left Motor Direction | DIR |
+| PA_8 | Timer 1 CH 1 | Left Motor effort | PWM |
+| PA_10 | Output, Push/Pull | Right Motor Enable | N/A | 
+| PB_10 | Output, Push/Pull | Right Motor Direction | DIR |
+| PB_6 | Timer 4 CH 1 | Right Motor effort | PWM |
+| PA_6 | Timer 3 CH 1 | Right Encoder | ERB |
+| PA_7 | Timer 3 CH 2 | Right Encoder | ERA |
+| PA_0 | Timer 2 Ch 1 | Left Encoder | ELB |
+| PA_1 | Timer 2 Ch 2 | Left Encoder | ELA |
 | PC_1 | Analog input | Line sensor | IR1 |
 | PB_1 | Analog input | Line sensor | IR2 |
 | PC_3 | Analog input | Line sensor | IR3 |
 | PC_0 | Analog input | Line sensor | IR4 |
 | PB_0 | Analog input | Line sensor | IR5 |
-| XX_X | Analog input | Bump sensor | N/A |
+| PC_4 | Analog input | Bump sensor | N/A |
 | PA_4 | Output, Push/Pull | Reset Pin for IMU | RST |
 | PB_8 | I2C1 SCL | I2C1 clock for I2C bus | SCL |
 | PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | SDA |
-| XX_X | Analog input | Bump sensor | XXX |
 | PA_4 | Output, Push/Pull | Reset Pin for IMU | XXX |
 | PB_8 | I2C1 SCL | I2C1 clock for I2C bus | XXX |
 | PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | XXX |
