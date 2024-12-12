@@ -101,19 +101,19 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 ---
 
 ## Photos
-Romi Front View:
-- <img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />
-Romi Top View:
+Romi Front View:  
+<img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />
+Romi Top View:  
 <img src="./images/Romi_top.jpg" alt="Robot Top View" width="400" />
-Romi Side View:
+Romi Side View:  
 <img src="./images/Romi_side.jpg" alt="Robot Side View" width="400" />
-Romi Isometric View:
+Romi Isometric View:  
 <img src="./images/Romi_isometric.jpg" alt="Robot Isometric View" width="400" />
-Sensor Mounting:
+Sensor Mounting:  
 <img src="./images/Mount_Closeup.jpg" alt="Sensor Mounting" width="400" />
-Line Sensor Orientation:
+Line Sensor Orientation:  
 <img src="./images/Line_Sensor_Location.jpg" alt="Line Sensor Orientation" width="400" />
-Line follower in action:
+Line follower in action:  
 <img src="./images/line_follower_action.jpg" alt="Line Follower in Action" width="400" />
 
 ---
