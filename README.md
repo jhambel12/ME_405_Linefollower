@@ -33,6 +33,7 @@ This project involves a Romi robot configured and programmed to autonomously com
     See the Morpho Headers section on the [ST Nucleo-L475RG webpage](https://os.mbed.com/platforms/ST-Nucleo-L476RG/).
 - **Pin assignment table**    
 | Pin Name Nucleo  | Pin Mode            | Connection                   | Pin Name on device |
+|:----------------:|:-------------------:|:----------------------------:|:------------------:|
 | PB_5             | Output, Push/Pull   | Left Motor On/off control    | N/A                |
 | PB_3             | Output, Push/Pull   | Left Motor Dir control       | N/A                |
 | PA_8             | Timer 1             | Left Motor effort            | N/A                |
