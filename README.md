@@ -37,10 +37,10 @@ This project involves a Romi robot configured and programmed using micropython t
 
 | Pin Name Nucleo | Pin Mode | Connection | Pin Name on device |
 | --- | --- | --- | --- |
-| PB_5 | Output, Push/Pull | Left Motor Enable | <img src="./images/Not_sleep.jpg" alt="Not Sleep text" width="40" /> |
+| PB_5 | Output, Push/Pull | Left Motor Enable | <img src="./images/Not_sleep.jpg" alt="Not Sleep text" width="38" /> |
 | PB_3 | Output, Push/Pull | Left Motor Direction | DIR |
 | PA_8 | Timer 1 CH 1 | Left Motor effort | PWM |
-| PA_10 | Output, Push/Pull | Right Motor Enable | N/A | 
+| PA_10 | Output, Push/Pull | Right Motor Enable | <img src="./images/Not_sleep.jpg" alt="Not Sleep text" width="38" /> | 
 | PB_10 | Output, Push/Pull | Right Motor Direction | DIR |
 | PB_6 | Timer 4 CH 1 | Right Motor effort | PWM |
 | PA_6 | Timer 3 CH 1 | Right Encoder | ERB |
