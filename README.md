@@ -23,9 +23,9 @@ This project involves a Romi robot configured and programmed using micropython t
 - **Bump Sensor**: Detects obstacles to avoid collisions.
 
 ### Mechanical Design Files:
-- `Line Sensor Mount` - [View Line Sensor Mount](./CAD/Lower_Bracket.py)  
-- `Bump Sensor Mount` - [View Bump Sensor Mount](./CAD/Upper_Bracket.py)  
-- `Bump Sensor Bumper` - [Bump Sensor Bumper](./CAD/Bump_Sensor.py)  
+- `Line Sensor Mount` - [View Line Sensor Mount](./CAD/Lower_Bracket.SLDPRT)  
+- `Bump Sensor Mount` - [View Bump Sensor Mount](./CAD/Upper_Bracket.SLDPRT)  
+- `Bump Sensor Bumper` - [Bump Sensor Bumper](./CAD/Bump_Sensor.SLDPRT)  
 -    Bump sensor bumper is optional, the reason for its use in this project is to reduce the weight offset in the front.
 
 ---
