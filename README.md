@@ -102,13 +102,12 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 
 ## Photos
 <img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />
-![Robot Front View](./images/Romi_front.jpg)
-![Robot Top View](./images/Romi_top.jpg)
-![Robot Side View](./images/Romi_side.jpg)
-![Robot Isometric View](./images/Romi_isometric.jpg)
-![Sensor Mounting](./images/Mount_Closeup.jpg)
-![Line Sensor orientation](./images/Line_Sensor_Location.jpg)
-![Line Follower in Action](./images/line_follower_action.jpg)
+<img src="./images/Romi_top.jpg" alt="Robot Top View" width="400" />
+<img src="./images/Romi_side.jpg" alt="Robot Side View" width="400" />
+<img src="./images/Romi_isometric.jpg" alt="Robot Isometric View" width="400" />
+<img src="./images/Mount_Closeup.jpg" alt="Sensor Mounting" width="400" />
+<img src="./images/Line_Sensor_Location.jpg" alt="Line Sensor Orientation" width="400" />
+<img src="./images/line_follower_action.jpg" alt="Line Follower in Action" width="400" />
 
 ---
 
