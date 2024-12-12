@@ -76,7 +76,7 @@ The control system implements a **PI control loop**, using encoder data and line
 [View Line Sensor File](./code/BNO055.py)  
 - **`irsensor.py`**: Reads data from the infrared sensors.  
 [View Bump Sensor File](./code/irsensor.py)  
-- **`bumpsensor.py`**: Reads data from the bump sensor.
+- **`bumpsensor.py`**: Reads data from the bump sensor.  
 [View cotask File](./code/bumpsensor.py)  
 - **`cotask.py`**: Manages cooperative multitasking.  
 [View task_share File](./code/cotask.py)  
