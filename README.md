@@ -101,8 +101,12 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 
 ## Photos
 
-![Robot Front View](./images/robot_front_view.jpg)
-![Sensor Mounting](./images/sensor_mounting.jpg)
+![Robot Front View](./images/Romi_front.jpg)
+![Robot Top View](./images/Romi_top.jpg)
+![Robot Side View](./images/Romi_side.jpg)
+![Robot Isometric View](./images/Romi_isometric.jpg)
+![Sensor Mounting](./images/Mount_Closeup.jpg)
+![Line Sensor orientation](./images/Line_Sensor_Location.jpg)
 ![Line Follower in Action](./images/line_follower_action.jpg)
 
 ---
