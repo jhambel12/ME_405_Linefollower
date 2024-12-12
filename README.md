@@ -95,8 +95,9 @@ The BNO055 class is responsible for gathering readings from the IMU. There are m
 #### Cotask
 This file is provided for this project. Authored by Dr. Ridgely, **`cotask`** contains classes that can run cooperatively scheduled tasks in the context of a multitasking system. It uses the input scheduling algorithm to run tasks on time and in the proper order using closs called **`CoTaskList`**. 
 
-#### task_share
+#### Task_share
 This file is provided for this project. Authored by Dr. Ridgely, **`task_share`** contains a class to allow tasks to share data without the risk of interrupts corrupting that data. This is very useful as variables may be shared between tasks without the need for global variables.
+
 ---
 
 ## Photos
