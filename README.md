@@ -52,13 +52,10 @@ This project involves a Romi robot configured and programmed using micropython t
 | PC_3 | Analog input | Line sensor | IR3 |
 | PC_0 | Analog input | Line sensor | IR4 |
 | PB_0 | Analog input | Line sensor | IR5 |
-| PC_4 | Analog input | Bump sensor | N/A |
+| PC_4 | Analog input | Bump sensor | D |
 | PA_4 | Output, Push/Pull | Reset Pin for IMU | RST |
 | PB_8 | I2C1 SCL | I2C1 clock for I2C bus | SCL |
 | PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | SDA |
-| PA_4 | Output, Push/Pull | Reset Pin for IMU | XXX |
-| PB_8 | I2C1 SCL | I2C1 clock for I2C bus | XXX |
-| PB_9 | I2C1 SDA | I2C1 serial data for I2C bus | XXX |
 
 
 ---
