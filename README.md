@@ -25,7 +25,7 @@ This project involves a Romi robot configured and programmed using micropython t
 - `Line Sensor Mount` - [FILE 1]
 - `Bump Sensor Mount` - [FILE 2]
 - `Bump Sensor Bumper` - [FILE 3]
-Bump sensor bumper is optional, the reason for its use in this project is to reduce the weight offset in the front.
+- Bump sensor bumper is optional, the reason for its use in this project is to reduce the weight offset in the front.
 
 ---
 
