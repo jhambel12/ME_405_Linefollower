@@ -101,7 +101,7 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 ---
 
 ## Photos
-
+<img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />
 ![Robot Front View](./images/Romi_front.jpg)
 ![Robot Top View](./images/Romi_top.jpg)
 ![Robot Side View](./images/Romi_side.jpg)
