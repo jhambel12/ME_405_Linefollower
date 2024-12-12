@@ -10,7 +10,7 @@ This project involves a Romi robot configured and programmed using micropython t
 
 - **Line Following Capability**: The robot uses infrared sensors to detect and follow a predefined line.
 - **Obstacle Detection and Avoidance**: Equipped with bump sensors to handle unexpected obstacles.
-- **Position Tracking**: Tracks its position relative to the starting point using encoders.
+- **Position Tracking**: Returns from the start box after completing the course.
 
 ---
 
@@ -123,7 +123,7 @@ Sensor Mounting:
 Line Sensor Orientation:  
 <img src="./images/Line_Sensor_Location.jpg" alt="Line Sensor Orientation" width="400" />  
 Line follower in action:  
-<img src="./images/line_follower_action.jpg" alt="Line Follower in Action" width="400" />  
+[Film of Romi on the track](./video/Romi_in_action.mp4)
 
 ---
 
