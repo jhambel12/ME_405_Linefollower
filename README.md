@@ -122,8 +122,10 @@ Sensor Mounting:
 <img src="./images/Mount_Closeup.jpg" alt="Sensor Mounting" width="400" />  
 Line Sensor Orientation:  
 <img src="./images/Line_Sensor_Location.jpg" alt="Line Sensor Orientation" width="400" />  
+
+## Video
 Line follower in action:  
-[Film of Romi on the track](./video/Romi_in_action.mp4)
+[Film of Romi on the track](./videos/Romi_in_action.mp4)
 
 ---
 
