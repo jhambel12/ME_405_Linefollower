@@ -109,6 +109,12 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 
 ---
 
+## Video
+Line follower in action:  
+[![Watch the Video](https://img.youtube.com/vi/LwHVRWF0OFc/0.jpg)](https://youtu.be/LwHVRWF0OFc)
+
+---
+
 ## Photos
 Romi Front View:  
 <img src="./images/Romi_front.jpg" alt="Robot Front View" width="400" />  
@@ -122,10 +128,6 @@ Sensor Mounting:
 <img src="./images/Mount_Closeup.jpg" alt="Sensor Mounting" width="400" />  
 Line Sensor Orientation:  
 <img src="./images/Line_Sensor_Location.jpg" alt="Line Sensor Orientation" width="400" />  
-
-## Video
-Line follower in action:  
-[Film of Romi on the track](./videos/Romi_in_action.mp4)
 
 ---
 
