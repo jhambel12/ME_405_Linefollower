@@ -32,7 +32,9 @@ This project involves a Romi robot configured and programmed using micropython t
 
 ## Wiring Information
 - **Nucleo Pinout diagrams**
-    See the Morpho Headers section on the [ST Nucleo-L475RG webpage](https://os.mbed.com/platforms/ST-Nucleo-L476RG/).
+    See the Morpho Headers section on the [ST Nucleo-L475RG webpage](https://os.mbed.com/platforms/ST-Nucleo-L476RG/).  
+- **Wiring Diagram**
+<img src="./wire_diagram/wiringdiagram.pdf" alt="Wiring Diagram" width="200" />
 - **Pin assignment table**    
 
 | Pin Name Nucleo | Pin Mode | Connection | Pin Name on device |
@@ -62,7 +64,7 @@ This project involves a Romi robot configured and programmed using micropython t
 
 ## Software
 
-The control system implements a **PI control loop**, using encoder data and line sensor readings as feedback to maintain line tracking and accurate position. This program uses cooperative multitasking in a finite state machine to ensure all tasks run on time. To accomplish this, the scheduler is used with priority and duration
+The control system implements a **PI control loop**, using encoder data and line sensor readings as feedback to maintain line tracking and accurate trajectory. This program uses cooperative multitasking in a finite state machine to ensure all tasks run on time. To accomplish this, the scheduler is used with priority and duration
 
 
 ### Python Files:
@@ -84,7 +86,7 @@ The control system implements a **PI control loop**, using encoder data and line
 [View Main File](./code/task_share.py)  
 
 ### Code Functionality:
-Main holds the task structure and is the file that runs when the robot is in motion. This file has X tasks, one for each of the states in the finite state machine. Within these tasks, classes are referenced to handle particular functions of the sensors, motor controller, and the IMU that the code interacts with. This keeps the length reasonable and improves the readibility of the code. Overall, the flow of the code wants to stay in line following mode. If the bump sensor is triggered, the obstacle avoidance measures will be taken until it finds a line again. After the bump sensor is triggered, the line sensor mode will look for all 5 sensors to detect a line. When this happens, that means Romi has found the end box. Romi will then proceed to the center of the box and rotate back to its original heading. After a brief pause, the Romi will begin driving straight on the original heading until all 5 line sensors detect a line, indicating that the start box has been reached. Then, it will stop in the start box completing the run of the course.
+Main holds the task structure and is the file that runs when the robot is in motion. This file has X tasks, one for each of the states in the finite state machine. Within these tasks, classes are referenced to handle particular functions of the sensors, motor controller, and the IMU that the code interacts with. This keeps the length reasonable and improves the readibility of the code. Overall, the flow of the code wants to stay in line following mode. If the bump sensor is triggered, the obstacle avoidance measures will be taken until it finds a line again. After the bump sensor is triggered, the line sensor mode will look for all 5 sensors to detect a line. When this happens, that means Romi has found the end box. Romi will then proceed to the center of the box and rotate back to its original heading. After a brief pause, the Romi will begin driving straight on the original heading for a specified time until it returns into the start box. Then, it will stop in the start box completing the run of the course.
 
 #### Motor
 The motor class is responsible for updating the effort, direction, and enabling the motors. This class is called in 2 tasks by main to control each motor. The effort of the motor is output from a PWM at a duty cycle specified by the controller to attempt to create zero steady state error between the encoder readings and the omega reference. 
@@ -99,7 +101,7 @@ The irsensor class is responsible for gathering the analog readings of the 5 inf
 The BNO055 class is responsible for gathering readings from the IMU. There are many features of this class that are unused. Mainly, data regarding the heading and yaw rate are used in conjunction with wheel speed data from the encoders to track the position relative to start. The data is sent over the I2C bus for the microcontroller and updated each time the class is called.
 
 #### Bump Sensor
-The bumpsensor class is used when the robot encounters the wall. The wall is an 8 inch by 8 inch square. The bump sensor class indicates what steps need to be taken to get around this obstacle. The first method **`XXXXXXXXXX`** reads the bump sensor. This is how the program will know the bump sensor has encountered an obstacle. Once this happens, the method **`XXXXXXX`** will control the Romi's movement around the wall. First, a short reverse to give Romi some space from the obstruction. Next, a 90 degree turn. Now that the Romi is parallel to the wall, a rectangular path around it is traced, each section of movement has its own state. Finally, as Romi makes its last turn, the line sensor function takes over and finds the line.
+The bumpsensor class is used when the robot encounters the wall. The wall is an 8 inch by 8 inch square. The bump sensor becomes an active low when it has been triggered. This is used to transfer out of the line follower mode and into the obstacle avoidance mode.
 
 #### Cotask
 This file is provided for this project. Authored by Dr. Ridgely, **`cotask`** contains classes that can run cooperatively scheduled tasks in the context of a multitasking system. It uses the input scheduling algorithm to run tasks on time and in the proper order using closs called **`CoTaskList`**. 
