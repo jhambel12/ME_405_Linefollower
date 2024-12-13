@@ -114,7 +114,7 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 
 ## Video
 Line follower in action:  
-[![Watch the Video](https://img.youtube.com/vi/LwHVRWF0OFc/0.jpg)](https://youtu.be/LwHVRWF0OFc)
+[![Watch the Video](https://img.youtube.com/vi/LwHVRWF0OFc/0.jpg)](https://youtu.be/2hM5jBhNtnU)
 
 ---
 
@@ -131,12 +131,5 @@ Sensor Mounting:
 <img src="./images/Mount_Closeup.jpg" alt="Sensor Mounting" width="400" />  
 Line Sensor Orientation:  
 <img src="./images/Line_Sensor_Location.jpg" alt="Line Sensor Orientation" width="400" />  
-
----
-
-## Detailed Report
-
-For an in-depth explanation of the project’s design, implementation, and results, please refer to the full report:
-[ME_405_Ellis_Hambel_Line_Follower.pdf](./docs/ME_405_Ellis_Hambel_Line_Follower.pdf)
 
 ---
