@@ -34,7 +34,7 @@ This project involves a Romi robot configured and programmed using micropython t
 - **Nucleo Pinout diagrams**
     See the Morpho Headers section on the [ST Nucleo-L475RG webpage](https://os.mbed.com/platforms/ST-Nucleo-L476RG/).  
 - **Wiring Diagram**
-<img src="./wire_diagram/wiringdiagram.png" alt="Wiring Diagram" width="325" />
+<img src="./wire_diagram/wiringdiagram.png" alt="Wiring Diagram" width="500" />
 - **Pin assignment table**    
 
 | Pin Name Nucleo | Pin Mode | Connection | Pin Name on device |
