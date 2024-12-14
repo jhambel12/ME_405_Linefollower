@@ -88,8 +88,14 @@ The control system implements a **PI control loop**, using encoder data and line
 
 ### Code Functionality:
 Main holds the task structure and is the file that runs when the robot is in motion. The code operates as a finite state machine, and it has five tasks. The following task diagram shows the tasks and the shared variables between them. 
+<img src="./images/Task Diagram.png" alt="Task Diagram" width="400" /> 
 
 Below, state transition diagrams are provided for each of the tasks.
+<img src="./images/Task 1 State Diagram.png" alt="Task 1" width="400" /> 
+<img src="./images/Task 2 State Diagram.png" alt="Task 2" width="400" /> 
+<img src="./images/Task 3 State Diagram.png" alt="Task 3" width="400" /> 
+<img src="./images/Task 4 State Diagram.png" alt="Task 4" width="400" /> 
+<img src="./images/Task 5 State Diagram.png" alt="Task 5" width="400" /> 
 
 Within these tasks, classes are referenced to handle particular functions of the sensors, motor controller, and the IMU that the code interacts with. This keeps the length reasonable and improves the readibility of the code. Overall, the flow of the code wants to stay in line following mode. If the bump sensor is triggered, the obstacle avoidance measures will be taken until it finds a line again. After the bump sensor is triggered, the line sensor mode will look for all 5 sensors to detect a line. When this happens, that means Romi has found the end box. Romi will then proceed to the center of the box and rotate back to its original heading. After a brief pause, the Romi will begin driving straight on the original heading for a specified time until it returns into the start box. Then, it will stop in the start box completing the run of the course. Below, the functionality and usage of the imported files and classes is discussed.
 
