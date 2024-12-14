@@ -114,7 +114,7 @@ This file is provided for this project. Authored by Dr. Ridgely, **`task_share`*
 
 ## Video
 Line follower in action:  
-[![Watch the Video](https://img.youtube.com/vi/LwHVRWF0OFc/0.jpg)](https://youtu.be/2hM5jBhNtnU)
+[![Watch the Video](https://img.youtube.com/vi/LwHVRWF0OFc/0.jpg)](https://youtu.be/625d_27x-ZY)
 
 ---
 
