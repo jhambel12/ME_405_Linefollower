@@ -91,11 +91,7 @@ Main holds the task structure and is the file that runs when the robot is in mot
 ![Screenshot 2024-12-13 220322](https://github.com/user-attachments/assets/36e15e47-2a5c-451d-b77e-c4948cb3f03f)
 
 Below, state transition diagrams are provided for each of the tasks.
-![Screenshot 2024-12-13 221901](https://github.com/user-attachments/assets/de5a78d6-d90f-4901-9a9b-6687fbb61ce2)
-![Screenshot 2024-12-13 221923](https://github.com/user-attachments/assets/95237a86-6809-4f63-8785-6cd52767dd14)
-![Screenshot 2024-12-13 223237](https://github.com/user-attachments/assets/82259068-c96f-4607-97d7-fa93f1281f0f)
-![Screenshot 2024-12-13 224703](https://github.com/user-attachments/assets/66ea6ed9-6075-495f-bb1f-8ccfb4602696)
-![Screenshot 2024-12-13 223937](https://github.com/user-attachments/assets/c99d7e85-0fcb-4f43-8604-38bf5b8c1df2)
+![Task 1](images/Task 1 State Diagram.png)
 
 Within these tasks, classes are referenced to handle particular functions of the sensors, motor controller, and the IMU that the code interacts with. This keeps the length reasonable and improves the readibility of the code. Overall, the flow of the code wants to stay in line following mode. If the bump sensor is triggered, the obstacle avoidance measures will be taken until it finds a line again. After the bump sensor is triggered, the line sensor mode will look for all 5 sensors to detect a line. When this happens, that means Romi has found the end box. Romi will then proceed to the center of the box and rotate back to its original heading. After a brief pause, the Romi will begin driving straight on the original heading for a specified time until it returns into the start box. Then, it will stop in the start box completing the run of the course. Below, the functionality and usage of the imported files and classes is discussed.
 
