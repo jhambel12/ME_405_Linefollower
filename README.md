@@ -117,7 +117,7 @@ This file is provided for this project. Authored by Dr. Ridgely, **`cotask`** co
 
 #### Task_share
 This file is provided for this project. Authored by Dr. Ridgely, **`task_share`** contains a class to allow tasks to share data without the risk of interrupts corrupting that data. This is very useful as variables may be shared between tasks without the need for global variables.
-
+  
 ---
 
 ## Video
